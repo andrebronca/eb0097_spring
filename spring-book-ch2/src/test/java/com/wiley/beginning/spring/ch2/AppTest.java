@@ -1,4 +1,4 @@
-package com.wiley.beginningspring;
+package com.wiley.beginning.spring.ch2;
 
 import static org.junit.Assert.assertTrue;
 

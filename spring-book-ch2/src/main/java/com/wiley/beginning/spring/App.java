@@ -1,4 +1,4 @@
-package com.wiley.beginningspring;
+package com.wiley.beginning.spring;
 
 /**
  * Hello world!
