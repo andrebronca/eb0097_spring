@@ -1,17 +1,20 @@
-package com.wiley.beginning.spring.ch2;
+package com.wiley.beginning.spring.ch2.java_based_configuration;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.wiley.beginning.spring.configuration.Ch2BeanConfiguration;
+import com.wiley.beginning.spring.service.AccountService;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
 	public static void main(String[] args) {
 		double amount = 5.30;
-		String xml_file = "/com/wiley/beginning/spring/ch2/ch2-beans.xml";
-//		AnnotationConfigApplicationContext appContext = 
-//				new AnnotationConfigApplicationContext(Ch2BeanConfiguration.class);
-//		
-		ClassPathXmlApplicationContext appContext = 
-				new ClassPathXmlApplicationContext(xml_file);
+
+		//contexto de carregamento bean por arquivo java
+		AnnotationConfigApplicationContext appContext = 
+				new AnnotationConfigApplicationContext(
+		Ch2BeanConfiguration.class);
 	
+		//pesquisando o bean no contexto carregado
 		AccountService as = 
 				appContext.getBean("accountService", AccountService.class);
 	

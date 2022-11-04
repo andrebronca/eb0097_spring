@@ -1,4 +1,9 @@
-package com.wiley.beginning.spring.ch2;
+package com.wiley.beginning.spring.configuration;
+
+import com.wiley.beginning.spring.dao.AccountDao;
+import com.wiley.beginning.spring.daoImpl.AccountDaoInMemoryImpl;
+import com.wiley.beginning.spring.service.AccountService;
+import com.wiley.beginning.spring.serviceImpl.AccountServiceImpl;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,6 @@
-package com.wiley.beginning.spring.ch2;
+package com.wiley.beginning.spring.service;
+
+import com.wiley.beginning.spring.domain.Account;
 
 public interface AccountService {
 	

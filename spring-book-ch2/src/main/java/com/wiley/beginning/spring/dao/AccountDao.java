@@ -1,6 +1,8 @@
-package com.wiley.beginning.spring.ch2;
+package com.wiley.beginning.spring.dao;
 
 import java.util.List;
+
+import com.wiley.beginning.spring.domain.Account;
 
 public interface AccountDao {
 	public void insert(Account account);

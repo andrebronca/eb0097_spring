@@ -1,9 +1,12 @@
-package com.wiley.beginning.spring.ch2;
+package com.wiley.beginning.spring.daoImpl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.wiley.beginning.spring.dao.AccountDao;
+import com.wiley.beginning.spring.domain.Account;
 
 public class AccountDaoInMemoryImpl implements AccountDao {
 

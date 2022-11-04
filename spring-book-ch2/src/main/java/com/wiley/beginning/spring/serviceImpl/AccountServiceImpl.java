@@ -1,4 +1,8 @@
-package com.wiley.beginning.spring.ch2;
+package com.wiley.beginning.spring.serviceImpl;
+
+import com.wiley.beginning.spring.dao.AccountDao;
+import com.wiley.beginning.spring.domain.Account;
+import com.wiley.beginning.spring.service.AccountService;
 
 public class AccountServiceImpl implements AccountService {
 	private AccountDao dao;
